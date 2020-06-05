@@ -1,0 +1,30 @@
+.common-link {
+  .relative;
+  .f1;
+  .font-montaga;
+  .font-normal;
+
+  &:hover {
+      &:before {
+          height: 100%;
+          top: 0;
+      }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+
+    top: 80%;
+    left: 0;
+
+    width: 100%;
+    height: 5px;
+
+    background-color: @pink;
+
+    z-index: -1;
+
+    transition: all @sensual-ease 0.25s;
+  }
+}

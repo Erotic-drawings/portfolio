@@ -1,0 +1,29 @@
+@light: 300;
+@normal: 400;
+@bold: 700;
+@black: 900;
+
+@basefont: 1;
+@font-size: @basefont + 0em;
+@font-family: 'Montserrat', sans-serif;
+
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@400;700&display=swap.css");
+
+html {
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+  font-size: @font-size;
+  font-family: @font-family;
+  font-weight: @normal;
+  color: @dark;
+}
+
+.font-montaga {
+  font-family: 'Montaga', serif;
+}
